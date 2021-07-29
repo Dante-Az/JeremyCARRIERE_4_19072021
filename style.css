@@ -90,6 +90,35 @@ a:hover {
     right: 0;
 }
 
+/*Add*/
+#bloc-2-services h2, #bloc-4-portfolio h2{ 
+    margin : auto;
+    padding : 10px;    
+}
+#bloc-2-services h2 {
+    max-width : 600px;
+}
+#bloc-4-portfolio h2 {
+    max-width : 600px;
+}
+.citation blockquote {
+    border : none;
+    font-style: italic;
+    margin :0;
+    padding : 10px 20px 0px 20px;
+    max-width: 561px;
+    margin: auto;
+}
+
+.citation p{
+    font-size : 20px;
+    line-height : 26px;
+}
+
+.citation figcaption {
+    color : rgba(0, 0, 0, .8);
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -705,7 +734,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px; /*22 -> 28*/
     line-height: 1.4em;
 }
 
