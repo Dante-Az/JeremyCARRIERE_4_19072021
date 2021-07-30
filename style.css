@@ -83,15 +83,6 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
 /*Add*/
 #bloc-2-services h2, #bloc-4-portfolio h2{ 
@@ -154,10 +145,22 @@ a:hover {
     padding : 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+.logo {
+    width: 214px;
+    height: 40px;
 }
+
+.logo-black {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-presentation, .bg-banniere {
+    background-attachment: scroll, fixed;
+    background-size: 70px 70px, cover;
+    background-repeat: repeat, no-repeat;
+}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -594,6 +597,10 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
+a[data-lightbox] img {
+    display: inline-block;
+    margin: 0;
+}
 
 a[data-lightbox]:hover::before {
     content: "+";
@@ -601,6 +608,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
+    line-height: 50px;
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
@@ -609,6 +617,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -800,6 +809,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
 }
 
 .portfolio-row {
@@ -877,11 +888,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image:  url("img/texture-paper.png"), url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image:  url("img/texture-paper.png"), url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
