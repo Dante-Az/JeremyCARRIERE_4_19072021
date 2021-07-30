@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
 }
 
 a,
@@ -117,6 +121,38 @@ a:hover {
 
 .citation figcaption {
     color : rgba(0, 0, 0, .8);
+}
+.partner {
+    padding : 20px;
+    text-align : center;
+}
+
+.partner span { 
+    display : block;
+    font-size : 22px;
+    margin : 0 0 10px 0;
+}
+
+.partner a {
+    display : inline-block;
+    padding : 14px;
+    color : white !important;
+}
+
+.partner a:hover {
+    text-decoration: underline;
+ }
+
+.partner ul {
+    padding : 0;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner li {
+    list-style: none;
+    padding : 0;
 }
 
 .texture-paper::before {
@@ -680,7 +716,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #333333!important;
 }
 
 .container {
@@ -706,7 +742,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -800,7 +836,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ad623f;
 }
 
 .tc-white {
@@ -808,12 +844,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9c5737;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c37652!important;
     color: #FFFFFF!important;
 }
 
