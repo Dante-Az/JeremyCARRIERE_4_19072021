@@ -889,11 +889,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image:  url("../img/texture-paper.png"), url("../img/la-chouette-agence-banniere.jpg");
+    background-image:  url("../img/texture-paper.png"), url("../img/webP/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image:  url("../img/texture-paper.png"), url("../img/image-de-presentation.jpg");
+    background-image:  url("../img/texture-paper.png"), url("../img/webP/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
